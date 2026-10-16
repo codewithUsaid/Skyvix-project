@@ -280,7 +280,7 @@ CREATE TABLE public.store_settings (
   phone TEXT NOT NULL DEFAULT '+92 332 299 2026',
   whatsapp TEXT NOT NULL DEFAULT '923322992026',
   whatsapp_greeting TEXT NOT NULL DEFAULT 'Hi! I need help with an order.',
-  email TEXT NOT NULL DEFAULT 'supercomputer.2526@gmail.com',
+  email TEXT NOT NULL DEFAULT 'usaidraza220@gmail.com',
   address TEXT NOT NULL DEFAULT 'PIB Colony, near Faizan-e-Madinah, Karachi',
   currency TEXT NOT NULL DEFAULT 'PKR',
   delivery_fee NUMERIC(12,2) NOT NULL DEFAULT 250,

@@ -69,7 +69,7 @@ export function Footer() {
                 <Mail className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
                 <div>
                   <p className="font-semibold text-foreground">Memon Usaid Raza</p>
-                  <a href="mailto:usaidraza220@gmail.com" className="hover:text-primary">supercomputer.2526@gmail.com</a>
+                  <a href="mailto:usaidraza220@gmail.com" className="hover:text-primary">usaidraza220@gmail.com</a>
                 </div>
               </li>
               <li className="flex items-start gap-3">
