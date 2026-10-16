@@ -1,3 +1,14 @@
+-- ============ CLEANUP BEFORE SETUP ============
+DROP TRIGGER IF EXISTS on_auth_user_created ON auth.users;
+DROP TYPE IF EXISTS public.app_role CASCADE;
+DROP TYPE IF EXISTS public.order_status CASCADE;
+DROP TYPE IF EXISTS public.product_condition CASCADE;
+DROP TABLE IF EXISTS public.addresses CASCADE;
+DROP TABLE IF EXISTS public.categories CASCADE;
+DROP TABLE IF EXISTS public.coupons CASCADE;
+DROP TABLE IF EXISTS public.profiles CASCADE;
+DROP TABLE IF EXISTS public.store_settings CASCADE;
+
 -- ============ ENUMS ============
 CREATE TYPE public.app_role AS ENUM ('admin','customer');
 CREATE TYPE public.order_status AS ENUM ('placed','confirmed','processing','packed','shipped','out_for_delivery','delivered','cancelled');
