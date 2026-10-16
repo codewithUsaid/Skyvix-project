@@ -38,8 +38,8 @@ export const Route = createFileRoute("/contact")({
         <div className="space-y-4">
           {[
             { icon: Phone, title: "Phone", value: "+92 300 1234567", sub: "Mon–Sat 9am–9pm" },
-            { icon: Mail, title: "Email", value: "hello@supercomputers.pk", sub: "We reply within hours" },
-            { icon: MapPin, title: "Visit us", value: "Main Boulevard Gulberg, Lahore", sub: "Pakistan" },
+            { icon: Mail, title: "Email", value: "support@skyvix.tech", sub: "We reply within hours" },
+            { icon: MapPin, title: "Visit us", value: "Karachi, Pakistan", sub: "Pakistan" },
             { icon: Clock, title: "Hours", value: "Mon–Sat · 9am–9pm", sub: "Sunday: 12pm–6pm" },
           ].map((c) => (
             <div key={c.title} className="flex gap-4 rounded-2xl border border-border bg-card p-5 shadow-soft">
